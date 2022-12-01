@@ -1,0 +1,92 @@
+.house-details {
+  margin-bottom: 6.8em;
+  h1 {
+    font-size: 2.8em;
+  }
+  .house-details-rating-location {
+    display: flex;
+    font-size: 1.6em;
+    > svg {
+      margin-top: 0.3em;
+      font-size: 1em;
+    }
+    > p {
+      margin-left: 1em;
+      font-size: 1em;
+      font-weight: lighter;
+    }
+    .bullet {
+      color: darkgray;
+      font-size: 0.7em;
+      margin: 0.4em -0.9em 0 0.7em;
+    }
+  }
+  .house-details-pic {
+    position: relative;
+    margin-bottom: 1.4em;
+    background-color: #efefef;
+    border-radius: 15px;
+    img {
+      width: 100%;
+      height: 24em;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+    svg {
+      color: white;
+      position: absolute;
+      right: 1em;
+      top: 1em;
+      font-size: 2em;
+    }
+  }
+  .house-description {
+    margin-top: 1.4em;
+    margin-bottom: 2.2em;
+  }
+  .house-features {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    margin-bottom: 1em;
+    .feature-icon {
+      border-radius: 15px;
+      width: 62px;
+      height: 62px;
+      padding: 14px;
+      img {
+        width: 32px;
+        height: 32px;
+        display:block;
+        margin:auto;
+      }
+    }
+    .active {
+      background-color: #004f63;
+    }
+    .disabled {
+      background-color: gray;
+    }
+  }
+  .photos-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px 16px;
+    margin-top: 12px;
+    .gallery-photo {
+      background-color: #efefef;
+      border-radius: 15px;
+    }
+    img {
+      width: 276px;
+      height: 180px;
+      border-radius: 15px;
+    }
+  }
+  .comments {
+    h3 {
+      margin: 20px 0;
+    }
+  }
+}

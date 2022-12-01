@@ -1,0 +1,33 @@
+.person-card {
+  margin: 1.2em 0 1.2em 0;
+  .person-info {
+    display: flex;
+    img {
+      border-radius: 50%;
+      height: 4em;
+      width: 4em;
+    }
+    .person-name-rating-date {
+      display: flex;
+      flex-direction: column ;
+      justify-content: space-evenly;
+      margin-left: 2em;
+      h5 {
+        padding-top: 0.4em;
+      }
+      .person-rating {
+        margin-top: -0.4em;
+        p {
+          padding-left: 0.4em;
+          display: inline-block;
+        }
+      }
+      .person-date {
+        color: gray;
+      }
+    }
+  }
+  .person-comment {
+    margin-top: 0.4em;
+  }
+}
